@@ -1,0 +1,441 @@
+{
+  "Amenities": {
+    "component": "amenities",
+    "props": {
+      "columns": 3,
+      "items": [
+        "149 guestrooms",
+        "2 restaurants",
+        "Full-service spa",
+        "Breakfast available",
+        "Health club",
+        "Valet parking",
+        "Business center",
+        "Airport shuttle",
+        "In-room childcare",
+        "24-hour front desk",
+        "Air conditioning",
+        "Daily housekeeping"
+      ]
+    }
+  },
+  "Amenities: Grouped": {
+    "component": "amenities",
+    "props": {
+      "columns": 3,
+      "listType": "grouped",
+      "items": [
+        {
+          "title": "Pets",
+          "items": [
+            "Pets are allowed. Charges may apply."
+          ]
+        },
+        {
+          "title": "Activities",
+          "items": [
+            "Sauna",
+            "Fitness Center",
+            "Spa",
+            "Massage"
+          ]
+        },
+        {
+          "title": "Food & Drink",
+          "items": [
+            "Bar",
+            "Breakfast in the Room",
+            "Restaurant with Dining Menu"
+          ]
+        },
+        {
+          "title": "Internet",
+          "items": [
+            "Free! WiFi is available in the hotel\n            rooms and is free of charge."
+          ]
+        },
+        {
+          "title": "Services",
+          "items": [
+            "Room Service",
+            "Car Rental",
+            "Airport Shuttle (surcharge)",
+            "24-Hour Front Desk",
+            "Express Check-in/Check-out",
+            "Currency Exchange",
+            "Ticket Service",
+            "Baggage Storage",
+            "Concierge Service",
+            "Babysitting/Child Services",
+            "Laundry",
+            "Dry Cleaning",
+            "Ironing Service",
+            "Shoeshine",
+            "Daily Housekeeping",
+            "Meeting/Banquet Facilities",
+            "Business Center",
+            "Fax/Photocopying",
+            "VIP Room Facilities"
+          ]
+        },
+        {
+          "title": "Parking",
+          "items": [
+            "Private parking is available at a location nearby\n            (reservation is not needed) and costs EUR 37 per day."
+          ]
+        },
+        {
+          "title": "General",
+          "items": [
+            "Newspapers",
+            "Safe",
+            "Non-smoking Rooms",
+            "Facilities for Disabled Guests",
+            "Elevator",
+            "Soundproof Rooms",
+            "Heating",
+            "Hypoallergenic room available",
+            "Air Conditioning",
+            "Designated Smoking Area"
+          ]
+        },
+        {
+          "title": "Languages Spoken",
+          "items": [
+            "English",
+            "French",
+            "German",
+            "Italian",
+            "Russian",
+            "Spanish"
+          ]
+        }
+      ]
+    }
+  },
+  "Booking: Activity": {
+    "component": "booking",
+    "props": {
+      "type": "activity",
+      "price": {
+        "amount": 49,
+        "currency": "USD",
+        "rate": "per person"
+      }
+    }
+  },
+  "Booking: Hotel": {
+    "component": "booking",
+    "props": {
+      "type": "hotel",
+      "price": {
+        "amount": 120,
+        "currency": "USD",
+        "rate": "per night"
+      }
+    }
+  },
+  "Booking: Restaurant": {
+    "component": "booking",
+    "props": {
+      "type": "restaurant"
+    }
+  },
+  "Bookmark": {
+    "component": "bookmark",
+    "props": {}
+  },
+  "Breadcrumbs": {
+    "component": "breadcrumbs",
+    "props": {
+      "links": [
+        {
+          "title": "USA",
+          "href": "/usa"
+        },
+        {
+          "title": "Tennessee",
+          "href": "/tennessee"
+        },
+        {
+          "title": "Nashville",
+          "href": "/nashville"
+        }
+      ]
+    }
+  },
+  "Button": {
+    "component": "button",
+    "props": {
+      "href": "/foo"
+    }
+  },
+  "Callout: Book": {
+    "component": "callout",
+    "props": {
+      "type": "book",
+      "align": "center",
+      "heading": "Lonely Planet’s Best in Travel 2016",
+      "slug": "/",
+      "price": {
+        "currency": "USD",
+        "amount": 21.99
+      },
+      "description": "Be an in-the-know traveler this year with Lonely\n        Planet’s collection of the hottest trends, destinations,\n        journeys.",
+      "image": "http://dummyimage.com/132x168/4d494d/686a82.gif"
+    }
+  },
+  "Callout: Activity": {
+    "component": "callout",
+    "props": {
+      "type": "activity",
+      "heading": "Cycle Linz to Vienna",
+      "slug": "/",
+      "price": {
+        "currency": "USD",
+        "amount": 50
+      },
+      "image": "http://dummyimage.com/300x158/4d494d/686a82.gif",
+      "category": "Food and drink"
+    }
+  },
+  "Checkbox": {
+    "component": "checkbox",
+    "props": {
+      "value": "5 star hotel",
+      "id": "check",
+      "checked": true
+    }
+  },
+  "Edit Link": {
+    "component": "editLink",
+    "props": {
+      "url": "/"
+    }
+  },
+  "Expand Button": {
+    "component": "expandButton",
+    "props": {
+      "label": "Open"
+    }
+  },
+  "Flyout": {
+    "component": "flyout",
+    "props": {
+      "children": "I believe I can fly…"
+    }
+  },
+  "Heading": {
+    "component": "heading",
+    "props": {
+      "children": "Hello World"
+    }
+  },
+  "Icon": {
+    "component": "icon",
+    "props": {
+      "name": "logo",
+      "size": "medium"
+    }
+  },
+  "Icon Button": {
+    "component": "iconButton",
+    "props": {
+      "icon": "share",
+      "label": "Share this"
+    }
+  },
+  "Image Carousel": {
+    "component": "imageCarousel",
+    "props": {
+      "images": [
+        "https://lonelyplanetimages.imgix.net/dotcom-pois/images/sight-ryman.jpg?auto=enhance&w=770&h=430&fit=crop",
+        "https://lonelyplanetimages.imgix.net/dotcom-pois/images/shopping-third-man.jpg?auto=enhance&w=770&h=430&fit=crop",
+        "https://lonelyplanetimages.imgix.net/dotcom-pois/images/shopping-two-old-hippies.jpg?auto=enhance&w=770&h=430&fit=crop"
+      ]
+    }
+  },
+  "Input": {
+    "component": "input",
+    "props": {}
+  },
+  "Label": {
+    "component": "label",
+    "props": {
+      "children": "Label"
+    }
+  },
+  "Lede": {
+    "component": "lede",
+    "props": {
+      "content": "Lorem ipsum dolor sit amet, consectetur\n        adipiscing elit, sed do eiusmod tempor incididunt\n        ut labore et dolore magna aliqua. Ut enim ad minim\n        veniam, quis nostrud exercitation ullamco laboris\n        nisi ut aliquip ex ea commodo consequat. Duis aute\n        irure dolor in reprehenderit in voluptate velit\n        esse cillum dolore eu fugiat nulla pariatur.\n        Excepteur sint occaecat cupidatat non proident,\n        sunt in culpa qui officia deserunt mollit anim id\n        est laborum"
+    }
+  },
+  "More Link": {
+    "component": "moreLink",
+    "props": {
+      "href": "/",
+      "children": "View all tours"
+    }
+  },
+  "Number Input": {
+    "component": "numberInput",
+    "props": {
+      "value": 5,
+      "min": 1,
+      "max": 10
+    }
+  },
+  "Page Header": {
+    "component": "pageHeader",
+    "props": {
+      "heading": "Ryman Auditorium",
+      "title": "Nashville Sights",
+      "titleHref": "/",
+      "topChoice": true,
+      "type": "Historic building",
+      "place": "Nashville",
+      "alignment": "center"
+    }
+  },
+  "Paginator Button": {
+    "component": "paginatorButton",
+    "props": {}
+  },
+  "POI Paginator": {
+    "component": "poiPaginator",
+    "props": {
+      "title": "Bademiya",
+      "slug": "/",
+      "topChoice": true,
+      "type": "Fusion restaurant",
+      "neighborhood": "Hofburg",
+      "place": "Vienna"
+    }
+  },
+  "Price": {
+    "component": "price",
+    "props": {
+      "amount": 200
+    }
+  },
+  "Price: Callout": {
+    "component": "price",
+    "props": {
+      "amount": 200,
+      "thin": true
+    }
+  },
+  "Price: Emphasized": {
+    "component": "price",
+    "props": {
+      "amount": 200,
+      "emphasized": true
+    }
+  },
+  "Price: Tag": {
+    "component": "price",
+    "props": {
+      "amount": 9.99,
+      "tag": true
+    }
+  },
+  "Profile": {
+    "component": "profile",
+    "props": {
+      "name": "Jane Doe",
+      "title": "Lonely Planet Writer",
+      "avatar": "//assets.staticlp.com/profiles/users/placeholders/large.png",
+      "profileUrl": "",
+      "size": "large",
+      "orientation": "vertical"
+    }
+  },
+  "Rating": {
+    "component": "rating",
+    "props": {
+      "amount": 3
+    }
+  },
+  "Related Tour": {
+    "component": "relatedTour",
+    "props": {
+      "title": "Vienna City by Bike and Boat",
+      "slug": "/#",
+      "image": "http://dummyimage.com/630x284/4d494d/686a82.gif",
+      "price": {
+        "currency": "USD",
+        "amount": 2595
+      },
+      "tripLength": "14 days",
+      "destination": "Kochi to Kolkata",
+      "reviews": 8
+    }
+  },
+  "Select": {
+    "component": "select",
+    "props": {
+      "options": [
+        "foo",
+        "bar",
+        "baz"
+      ]
+    }
+  },
+  "Static Map": {
+    "component": "staticMap",
+    "props": {
+      "location": "-86.8595257,35.93225029999999",
+      "size": "278x90"
+    }
+  },
+  "Tag": {
+    "component": "tag",
+    "props": {
+      "label": "The Americas",
+      "slug": "/americas"
+    }
+  },
+  "Tag List": {
+    "component": "tagList",
+    "props": {
+      "tags": [
+        {
+          "label": "The Americas",
+          "slug": "/americas"
+        },
+        {
+          "label": "World",
+          "slug": "/world"
+        },
+        {
+          "label": "Asia & the Pacific",
+          "slug": "/asia-pacific"
+        },
+        {
+          "label": "Europe",
+          "slug": "/europe"
+        },
+        {
+          "label": "Middle East & Africa",
+          "slug": "/middle-east-africa"
+        },
+        {
+          "label": "Editor's pick",
+          "slug": "/editors-pick"
+        }
+      ]
+    }
+  },
+  "Toolbar": {
+    "component": "toolbar",
+    "props": {
+      "phone": "1-555-000-1234",
+      "website": "http://www.lonelyplanet.com",
+      "directions": [
+        36.186836,
+        -86.9253293
+      ]
+    }
+  }
+}
