@@ -1,6 +1,9 @@
 @charset "UTF-8";
 
 @import "rizzo-next/sass/core";
+@import "rizzo-next/src/components/header/header";
+@import "rizzo-next/src/components/navigation/navigation";
+@import "rizzo-next/src/components/footer/footer";
 
 .PageHeader {
   @include container;

@@ -7,10 +7,10 @@ import componentsJson from "../../components.json";
 import glob from "glob";
 
 // Obviously don't do this eventually...
-const basePath = "/Users/jonathanc/LonelyPlanet/repos/guidebook-react/src/";
+const basePath = "/Users/jonathanc/LonelyPlanet/repos/guidebook-react/src/components/";
 const examples = {};
 
-const allComponents = glob.sync(`${basePath}/components/**/*.jsx`)
+const allComponents = glob.sync(`${basePath}/**/*.jsx`)
   .map((p) => {
     const relative = path.relative(basePath, p);
 
@@ -58,7 +58,7 @@ const components = allComponents
     let Component;
 
     try {
-      Component = require(`guidebook-react/dist/${requirePath}`).default;
+      Component = require(`guidebook-react/dist/components/${requirePath}`).default;
     } catch (e) {
       console.log(e);
       return false;

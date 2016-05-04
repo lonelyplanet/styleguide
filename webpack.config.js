@@ -13,9 +13,14 @@ const fs = require("fs");
 let plugins = [
   new webpack.DefinePlugin({
     "process.env": {
-      NODE_ENV: JSON.stringify("development"),
+      NODE_ENV: JSON.stringify("production"),
       ASSET_HOST: JSON.stringify(process.env.ASSET_HOST),
       OPEN_PLANET_HOST: JSON.stringify(process.env.OPEN_PLANET_HOST),
+    },
+  }),
+  new webpack.optimize.UglifyJsPlugin({
+    compress: {
+      warnings: false,
     },
   }),
 ];

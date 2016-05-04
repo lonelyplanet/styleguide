@@ -46,7 +46,7 @@ class Styleguide extends React.Component {
     });
 
     const list = components.map((comp, i) => {
-      const Component = comp.Component || require("guidebook-react/dist/" + comp.path).default;
+      const Component = comp.Component || require("guidebook-react/dist/components/" + comp.path).default;
       const propTypes = Object.keys(comp.props || {});
       const props = comp.lpProps;
 
@@ -72,8 +72,9 @@ class Styleguide extends React.Component {
       <StyleRoot>
         <div className="container">
           <PageHeader
-            strapline="A maintainable styleguide"
-            heading="Rizzo"
+            strapline="An LP developer's toolkit for on the go UI"
+            heading="Backpack"
+            title="Lonely Planet's Pattern Library"
             alignment="center"
             contained
           />

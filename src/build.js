@@ -27,16 +27,23 @@ const markup = `
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.13.4/theme/monokai.min.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.13.4/codemirror.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.13.4/mode/javascript/javascript.js"></script>
+  <style>
+  .page-container{
+    opacity: 0;
+  }
+  </style>
   <script>
     window.__initialState = { styleguide: ${JSON.stringify(props)} };
   </script>
 </head>
 <body>
+<div class="page-container">
 ${header}
-<div id="app">
+  <div id="app">
   ${rendered}
-</div>
+  </div>
 ${footer}
+</div>
 <script src="styleguide.js"></script>
 </body>
 `;
